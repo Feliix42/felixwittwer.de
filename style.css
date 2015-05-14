@@ -5,7 +5,6 @@ body {
     margin-bottom:5%;
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 1.5em;
-    #font-style:italic;
 }
 
 h2 {
@@ -42,7 +41,6 @@ a.mail:hover {
     margin:auto;
     border:1px solid #DDDDDD;
     padding:5% 10% 5% 10%;
-    #letter-spacing:0.1vw
 }
 
 #badge {
