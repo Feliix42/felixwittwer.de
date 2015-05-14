@@ -7,6 +7,26 @@ body {
     font-size: 1.5em;
 }
 
+#box {
+    background:#fff;
+    max-width:35%;
+    margin:auto;
+    border:1px solid #DDDDDD;
+    padding:5% 10% 5% 10%;
+}
+
+@media (max-width:800px) {
+    #box {
+        max-width: 50%;
+    }
+}
+
+@media (max-width:600px) {
+    #box {
+        max-width: 70%;
+    }
+}
+
 h2 {
     font-size: 2em;
     color:#114488;
@@ -38,21 +58,6 @@ a:unvisited {
 a:hover {
     text-decoration: none;
     color: black;
-}
-
-#box {
-    background:#fff;
-    max-width:35%;
-    margin:auto;
-    border:1px solid #DDDDDD;
-    padding:5% 10% 5% 10%;
-}
-
-#badge {
-    bottom: 20px;
-    position: fixed;
-    vertical-align: middle;
-    display: 
 }
 
 #footer {
