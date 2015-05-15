@@ -3,20 +3,48 @@
 <head>
     <meta charset='UTF-8'>
     <title>Felix Wittwer</title>
-	<meta name='Author' content='Felix Wittwer'/>
+    <meta name='Author' content='Felix Wittwer'/>
     <link href='src/fw.ico' rel='shortcut icon' />
     <link rel='stylesheet' type='text/css' href='style.css'>
     <link rel='stylesheet' type='text/css' href='font.css'>
+    <script src="src/jquery-1.11.3.min.js"></script>
 </head>
-<body> 
-    <div id="topbox">
-        <h2>Felix Wittwer</h2>
-        <a class="mail" href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#104;&#097;&#108;&#108;&#111;&#064;&#102;&#101;&#108;&#105;&#120;&#119;&#105;&#116;&#116;&#119;&#101;&#114;&#046;&#100;&#101;">&#104;&#097;&#108;&#108;&#111;&nbsp;&nbsp;&#064;&nbsp;&nbsp;&#102;&#101;&#108;&#105;&#120;&#119;&#105;&#116;&#116;&#119;&#101;&#114;&#046;&#100;&#101;</a>
-        <br /><a href="files/EA0E8A99.asc"><small>[pgp key]</small></a>
+<body>
+    <div id="container">
+        <div id="topbox">
+            <h2>Felix Wittwer</h2>
+            <a class="mail" href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#104;&#097;&#108;&#108;&#111;&#064;&#102;&#101;&#108;&#105;&#120;&#119;&#105;&#116;&#116;&#119;&#101;&#114;&#046;&#100;&#101;">&#104;&#097;&#108;&#108;&#111;&nbsp;&nbsp;&#064;&nbsp;&nbsp;&#102;&#101;&#108;&#105;&#120;&#119;&#105;&#116;&#116;&#119;&#101;&#114;&#046;&#100;&#101;</a>
+            <br /><a href="files/EA0E8A99.asc"><small>[pgp key]</small></a>
+        </div>
+
+        <div class="box">
+            <h3>Projekte</h3>
+            <p class="text">Jemand musste Josef K. verleumdet haben, denn ohne dass er etwas Böses getan hätte, </p>
+        </div>
+        <div class="box" id="middlebox">
+            <h3>Über mich</h3>
+            <p class="text">Jemand musste Josef K. verleumdet haben, denn ohne dass er etwas Böses getan hätte, </p>
+        </div>
+        <div class="box">
+            <h3>Links</h3>
+            <p class="text"><a href="https://github.com/Feliix42">Github</a></p>
+        </div>
     </div>
-    <br />
     <div id="footer">
         <a href="https://uberspace.de"><img src="src/ubernaut-badge.png" alt="Ubernaut. Hosted on Asteroids." /></a>
     </div>
+
+
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        var max=0;
+          $('.box').each(function(){
+              if($(this).height()>max) max = $(this).height();
+          });
+          $('.box').each(function(){
+              $(this).height(max)
+          });
+      });
+    </script>
 </body>
 </html>
