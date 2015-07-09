@@ -144,6 +144,10 @@ ul {
     clear: both;
 }
 
+#impressum {
+    font-size: 0.75em;
+}
+
 /*
 @media screen and (max-device-width: 800px) {
     #box {
