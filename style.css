@@ -1,17 +1,40 @@
 body {
     background:#f3f3f3;
     text-align:center;
-    margin-top:10%;
-    margin-bottom:5%;
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width:55%;
+    margin: 40px auto 0 auto;
+    overflow: hidden;
+}
+
+#topbox {
+    background:#fff;
+    width: 100%;
+    margin: 0;
+    border:1px solid #DDD;
+    padding:5% 10% 5% 10%;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.4em;
+    color:#114488;
+    text-shadow: 0px 2px 3px #0d2f5d;
+    letter-spacing: normal;
+    margin-top: 0;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.0em;
     color:#114488;
-    text-shadow: 0px 2px 3px #0d2f5d; 
     letter-spacing: normal;
+    margin-top: 0;
 }
 
 .mail {
@@ -23,6 +46,11 @@ small {
     text-decoration: none;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 a:link {
     text-decoration: none;
     color: black;
@@ -31,33 +59,125 @@ a:visited {
     text-decoration: none;
     color: black;
 }
-a:unvisited {
-    text-decoration: none;
-    color: black;
-}
 a:hover {
     text-decoration: none;
     color: black;
 }
 
-#box {
-    background:#fff;
-    max-width:35%;
-    margin:auto;
-    border:1px solid #DDDDDD;
-    padding:5% 10% 5% 10%;
+.box {
+    background: #fff;
+    width: 32%;
+    margin: 2% 0 0 0;
+    float: left;
+    padding: 15px 2.5% 15px 2.5%;
+    border: 1px solid #DDD;
+    box-sizing: border-box;
 }
 
-#badge {
-    bottom: 20px;
-    position: fixed;
-    vertical-align: middle;
-    display: 
+#middlebox {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+h3 {
+    margin: 0 auto;
+    color: #8F211B;
+    font-size: 1.3em;
+    padding-top: 5px;
+}
+
+.text {
+    text-align: justify;
+    margin: 10px 0 0 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.85em;
+    padding: 0;
+}
+
+ul, li {
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.85em;
+    margin: 0;
+}
+
+ul {
+    padding: 0 20px;
+}
+
+#footerline {
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.65em;
+    color: #555;
+}
+
+.footerlink {
+    text-decoration: none;
+    color: #555;
+}
+
+.footerlink:link {
+    text-decoration: none;
+    color: #555;
+}
+.footerlink:visited {
+    text-decoration: none;
+    color: #555;
+}
+.footerlink:hover {
+    text-decoration: none;
+    color: #555;
 }
 
 #footer {
-    bottom: 20px;
-    position: fixed;
+    position: relative;
+    margin-top: 30px;
     width: 100%;
     text-align: center;
+    clear: both;
 }
+
+#impressum {
+    font-size: 0.75em;
+}
+
+/*
+@media screen and (max-device-width: 800px) {
+    #box {
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-device-width: 640px) {
+    #box {
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 0;
+        font-size: 2.75vh;
+        #background: red;
+    }
+
+    h2 {
+        font-size: 5.5vh;
+    }
+}
+
+@media (max-width:800px) {
+    #box {
+        max-width: 50%;
+    }
+}
+
+@media (max-width:600px) {
+    #box {
+        max-width: 70%;
+    }
+}
+*/
