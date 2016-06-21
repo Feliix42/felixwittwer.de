@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/feliix42
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://felixwittwer.de
+  * I am feliix42 (https://keybase.io/feliix42) on keybase.
+  * I have a public key ASDLyWHCzeLjuZTMpKseIPBKOBZ4kUCaDFr0TA66tojnMgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120cbc961c2cde2e3b994cca4ab1e20f04a38167891409a0c5af44c0ebab688e7320a",
+            "host": "keybase.io",
+            "kid": "0120cbc961c2cde2e3b994cca4ab1e20f04a38167891409a0c5af44c0ebab688e7320a",
+            "uid": "12166b61a4694e96229a1fdcdff6c319",
+            "username": "feliix42"
+        },
+        "service": {
+            "hostname": "felixwittwer.de",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1466502662,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1466502535,
+        "hash": "3adec39dd7eca7e98f737a2d17df5504d7e90b2d7f802f6501439eaddb98815a60d0bff10686f93dd38b9d4547f0a5e9d681e3bdec248c5e4b5e9fa0b752e15b",
+        "seqno": 494522
+    },
+    "prev": "4151ec99447b7f8e76702c1a89745d9c0e37ed258d5899cf23927bec739755a5",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgy8lhws3i47mUzKSrHiDwSjgWeJFAmgxa9EwOuraI5zIKp3BheWxvYWTFAvh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwY2JjOTYxYzJjZGUyZTNiOTk0Y2NhNGFiMWUyMGYwNGEzODE2Nzg5MTQwOWEwYzVhZjQ0YzBlYmFiNjg4ZTczMjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwY2JjOTYxYzJjZGUyZTNiOTk0Y2NhNGFiMWUyMGYwNGEzODE2Nzg5MTQwOWEwYzVhZjQ0YzBlYmFiNjg4ZTczMjBhIiwidWlkIjoiMTIxNjZiNjFhNDY5NGU5NjIyOWExZmRjZGZmNmMzMTkiLCJ1c2VybmFtZSI6ImZlbGlpeDQyIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJmZWxpeHdpdHR3ZXIuZGUiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xNiJ9LCJjdGltZSI6MTQ2NjUwMjY2MiwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDY2NTAyNTM1LCJoYXNoIjoiM2FkZWMzOWRkN2VjYTdlOThmNzM3YTJkMTdkZjU1MDRkN2U5MGIyZDdmODAyZjY1MDE0MzllYWRkYjk4ODE1YTYwZDBiZmYxMDY4NmY5M2RkMzhiOWQ0NTQ3ZjBhNWU5ZDY4MWUzYmRlYzI0OGM1ZTRiNWU5ZmEwYjc1MmUxNWIiLCJzZXFubyI6NDk0NTIyfSwicHJldiI6IjQxNTFlYzk5NDQ3YjdmOGU3NjcwMmMxYTg5NzQ1ZDljMGUzN2VkMjU4ZDU4OTljZjIzOTI3YmVjNzM5NzU1YTUiLCJzZXFubyI6MTAsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAwh0Z1BSWjO7tL7CTOCfExF1d0GEcq079FsK+DntWOJ0kCKcUTpwCZccMKRDNPmxhG3EI56gaWSOY6Y6tUgTzAKhzaWdfdHlwZSCjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/feliix42
+
+==================================================================
