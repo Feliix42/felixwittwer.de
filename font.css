@@ -1,13 +1,10 @@
-@font-face {
-  font-family: 'Alegreya Sans SC';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Alegreya Sans SC Light'), local('AlegreyaSansSC-Light'), url(src/AlegreyaSansSC.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(src/JosefinSans.ttf) format('truetype');
+@font-face{
+    font-family: 'Fira Code';
+    src: url('src/fonts/FiraCode-Medium.eot');
+    src: url('src/fonts/FiraCode-Medium.eot') format('embedded-opentype'),
+         url('src/fonts/FiraCode-Medium.woff2') format('woff2'),
+         url('src/fonts/FiraCode-Medium.woff') format('woff'),
+         url('src/fonts/FiraCode-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
 }
