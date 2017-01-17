@@ -34,10 +34,13 @@ header div {
     text-align: left;
 }
 
+body div {
+    display: flex;
+}
+
 article {
-    width: 33.33%;
     vertical-align: top;
-    display: inline-block;
+    margin: 0 auto;
 }
 
 article h2 {
