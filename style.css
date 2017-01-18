@@ -2,8 +2,14 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
 body {
     width: 70%;
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
     font-family: "Fira Sans";
@@ -54,10 +60,47 @@ article ul {
     color: #333;
 }
 
+article p {
+    font-weight: 200;
+    font-size: 1.3em;
+    color: #333;
+}
+
 article li {
     margin-bottom: 5px;
 }
 
 article strong {
     font-weight: 400; /* regular */
+}
+
+a:link, a:visited, a:focus {
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+header a:link, a:visited, a:focus {
+    text-decoration: none;
+    color: #000;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+    font-weight: 200;
+    color: #333;
+    text-align: center;
+    font-size: 0.85em;
+    position: absolute;
+    bottom: 10px;
+    width: 70%;
 }

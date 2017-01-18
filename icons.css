@@ -1,0 +1,49 @@
+/* dirty crappy hack for font awesome icons as list items */
+
+article ul {
+    list-style: none;
+}
+
+article li::before {
+    font: normal normal normal 19px/1 FontAwesome;
+    margin:0 6px 0 -18px;
+    width:1.28571429em;
+    text-align:center;
+    display: inline-block;
+}
+
+.blog::before {
+    content: '\f040';
+}
+
+.tdolist::before {
+    content: '\f121';
+}
+
+.fsr::before {
+    content: '\f0c0';
+}
+
+.twitter::before {
+    content: '\f099';
+}
+
+.github::before {
+    content: '\f09b';
+}
+
+.telegram::before {
+    content: '\f1d8';
+}
+
+.keybase::before {
+    content: '\f084';
+}
+
+.bio::before {
+    content: '\f02d';
+}
+
+.mail::before {
+    content: '\f2b6';
+}
