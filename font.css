@@ -18,4 +18,40 @@
     font-style:normal;
 }
 
-/* TODO: Fira Sans */
+/* Fira Sans */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Fira Sans ExtraLight'), local('FiraSans-ExtraLight'), url(src/fonts/FiraSans-ExtraLight.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(src/fonts/FiraSans-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Fira Sans Medium'), local('FiraSans-Medium'), url(src/fonts/FiraSans-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Fira Sans SemiBold'), local('FiraSans-SemiBold'), url(src/fonts/FiraSans-SemiBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Fira Sans Bold'), local('FiraSans-Bold'), url(src/fonts/FiraSans-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: italic;
+  font-weight: 200;
+  src: local('Fira Sans ExtraLight Italic'), local('FiraSans-ExtraLightItalic'), url(src/fonts/FiraSans-ExtraLightItalic.ttf) format('truetype');
+}
